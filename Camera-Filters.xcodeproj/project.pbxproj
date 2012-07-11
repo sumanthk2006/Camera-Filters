@@ -1,0 +1,281 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1787C83F15ADA7AC00C5967C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1787C83E15ADA7AC00C5967C /* UIKit.framework */; };
+		1787C84115ADA7AC00C5967C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1787C84015ADA7AC00C5967C /* Foundation.framework */; };
+		1787C84315ADA7AC00C5967C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1787C84215ADA7AC00C5967C /* CoreGraphics.framework */; };
+		1787C84915ADA7AC00C5967C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1787C84715ADA7AC00C5967C /* InfoPlist.strings */; };
+		1787C84B15ADA7AC00C5967C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1787C84A15ADA7AC00C5967C /* main.m */; };
+		1787C84F15ADA7AC00C5967C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1787C84E15ADA7AC00C5967C /* AppDelegate.m */; };
+		1787C85215ADA7AC00C5967C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1787C85115ADA7AC00C5967C /* ViewController.m */; };
+		1787C85515ADA7AC00C5967C /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1787C85315ADA7AC00C5967C /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1787C83A15ADA7AC00C5967C /* Camera-Filters.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Camera-Filters.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1787C83E15ADA7AC00C5967C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1787C84015ADA7AC00C5967C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1787C84215ADA7AC00C5967C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1787C84615ADA7AC00C5967C /* Camera-Filters-Info.plist */ = {isa = PBXFileReference; path = "Camera-Filters-Info.plist"; sourceTree = "<group>"; };
+		1787C84815ADA7AC00C5967C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1787C84A15ADA7AC00C5967C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1787C84C15ADA7AC00C5967C /* Camera-Filters-Prefix.pch */ = {isa = PBXFileReference; path = "Camera-Filters-Prefix.pch"; sourceTree = "<group>"; };
+		1787C84D15ADA7AC00C5967C /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		1787C84E15ADA7AC00C5967C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1787C85015ADA7AC00C5967C /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		1787C85115ADA7AC00C5967C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1787C85415ADA7AC00C5967C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1787C83715ADA7AC00C5967C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1787C83F15ADA7AC00C5967C /* UIKit.framework in Frameworks */,
+				1787C84115ADA7AC00C5967C /* Foundation.framework in Frameworks */,
+				1787C84315ADA7AC00C5967C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1787C82F15ADA7AC00C5967C = {
+			isa = PBXGroup;
+			children = (
+				1787C84415ADA7AC00C5967C /* Camera-Filters */,
+				1787C83D15ADA7AC00C5967C /* Frameworks */,
+				1787C83B15ADA7AC00C5967C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1787C83B15ADA7AC00C5967C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1787C83A15ADA7AC00C5967C /* Camera-Filters.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1787C83D15ADA7AC00C5967C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1787C83E15ADA7AC00C5967C /* UIKit.framework */,
+				1787C84015ADA7AC00C5967C /* Foundation.framework */,
+				1787C84215ADA7AC00C5967C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1787C84415ADA7AC00C5967C /* Camera-Filters */ = {
+			isa = PBXGroup;
+			children = (
+				1787C84D15ADA7AC00C5967C /* AppDelegate.h */,
+				1787C84E15ADA7AC00C5967C /* AppDelegate.m */,
+				1787C85015ADA7AC00C5967C /* ViewController.h */,
+				1787C85115ADA7AC00C5967C /* ViewController.m */,
+				1787C85315ADA7AC00C5967C /* ViewController.xib */,
+				1787C84515ADA7AC00C5967C /* Supporting Files */,
+			);
+			path = "Camera-Filters";
+			sourceTree = "<group>";
+		};
+		1787C84515ADA7AC00C5967C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1787C84615ADA7AC00C5967C /* Camera-Filters-Info.plist */,
+				1787C84715ADA7AC00C5967C /* InfoPlist.strings */,
+				1787C84A15ADA7AC00C5967C /* main.m */,
+				1787C84C15ADA7AC00C5967C /* Camera-Filters-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1787C83915ADA7AC00C5967C /* Camera-Filters */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1787C85815ADA7AC00C5967C /* Build configuration list for PBXNativeTarget "Camera-Filters" */;
+			buildPhases = (
+				1787C83615ADA7AC00C5967C /* Sources */,
+				1787C83715ADA7AC00C5967C /* Frameworks */,
+				1787C83815ADA7AC00C5967C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Camera-Filters";
+			productName = "Camera-Filters";
+			productReference = 1787C83A15ADA7AC00C5967C /* Camera-Filters.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1787C83115ADA7AC00C5967C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 1787C83415ADA7AC00C5967C /* Build configuration list for PBXProject "Camera-Filters" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1787C82F15ADA7AC00C5967C;
+			productRefGroup = 1787C83B15ADA7AC00C5967C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1787C83915ADA7AC00C5967C /* Camera-Filters */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1787C83815ADA7AC00C5967C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1787C84915ADA7AC00C5967C /* InfoPlist.strings in Resources */,
+				1787C85515ADA7AC00C5967C /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1787C83615ADA7AC00C5967C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1787C84B15ADA7AC00C5967C /* main.m in Sources */,
+				1787C84F15ADA7AC00C5967C /* AppDelegate.m in Sources */,
+				1787C85215ADA7AC00C5967C /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1787C84715ADA7AC00C5967C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1787C84815ADA7AC00C5967C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1787C85315ADA7AC00C5967C /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1787C85415ADA7AC00C5967C /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1787C85615ADA7AC00C5967C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1787C85715ADA7AC00C5967C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1787C85915ADA7AC00C5967C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Camera-Filters/Camera-Filters-Prefix.pch";
+				INFOPLIST_FILE = "Camera-Filters/Camera-Filters-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1787C85A15ADA7AC00C5967C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Camera-Filters/Camera-Filters-Prefix.pch";
+				INFOPLIST_FILE = "Camera-Filters/Camera-Filters-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1787C83415ADA7AC00C5967C /* Build configuration list for PBXProject "Camera-Filters" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1787C85615ADA7AC00C5967C /* Debug */,
+				1787C85715ADA7AC00C5967C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1787C85815ADA7AC00C5967C /* Build configuration list for PBXNativeTarget "Camera-Filters" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1787C85915ADA7AC00C5967C /* Debug */,
+				1787C85A15ADA7AC00C5967C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1787C83115ADA7AC00C5967C /* Project object */;
+}
