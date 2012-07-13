@@ -7,7 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface ViewController : UIViewController
+#import "GPUImage.h"
+#import "ImageFilter.h"
+@interface ViewController : UIViewController<UIImagePickerControllerDelegate,UINavigationControllerDelegate>{
+    UIImagePickerController* imagePickerController;
+}
+-(IBAction)takePhoto:(id)sender;
+- (void)imagePickerController:(UIImagePickerController *)picker
+        didFinishPickingImage:(UIImage *)image
+                  editingInfo:(NSDictionary *)editingInfo;
+- (void)imagePickerControllerDidCancel:(UIImagePickerController *)picker;
 
 @end

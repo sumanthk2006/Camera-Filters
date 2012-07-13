@@ -18,9 +18,16 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
+    if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
     self.viewController = [[ViewController alloc] initWithNibName:@"ViewController" bundle:nil];
-    self.window.rootViewController = self.viewController;
+    }
+    else {
+    self.viewController = [[ViewController alloc] initWithNibName:@"ViewController_iPad" bundle:nil];        
+    }
+    // Override point for customization after application launch.
+    UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:self.viewController];
+
+    self.window.rootViewController = nav;
     [self.window makeKeyAndVisible];
     return YES;
 }
