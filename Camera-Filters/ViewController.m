@@ -19,6 +19,19 @@
     [super viewDidLoad];
 
 }
+-(IBAction)takePhoto:(id)sender{
+    
+    imagePickerController = [[UIImagePickerController alloc] init];
+    imagePickerController.view.frame = self.view.frame;
+    imagePickerController.delegate = self;
+    imagePickerController.sourceType =  UIImagePickerControllerSourceTypeCamera;
+    imagePickerController.showsCameraControls = YES;
+    imagePickerController.navigationBarHidden = NO;
+    imagePickerController.toolbarHidden = YES;
+    
+    //    [self.view addSubview:imagePickerController.view];
+    [self.navigationController presentModalViewController:imagePickerController animated:YES];
+}
 -(void)viewWillAppear:(BOOL)animated{
     [super viewWillAppear:NO];
     self.navigationController.navigationBarHidden = YES;
@@ -59,17 +72,5 @@
 {
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
--(IBAction)takePhoto:(id)sender{
-    
-    imagePickerController = [[UIImagePickerController alloc] init];
-    imagePickerController.view.frame = self.view.frame;
-    imagePickerController.delegate = self;
-    imagePickerController.sourceType =  UIImagePickerControllerSourceTypeCamera;
-    imagePickerController.showsCameraControls = YES;
-    imagePickerController.navigationBarHidden = NO;
-    imagePickerController.toolbarHidden = YES;
 
-//    [self.view addSubview:imagePickerController.view];
-    [self.navigationController presentModalViewController:imagePickerController animated:YES];
-}
 @end
