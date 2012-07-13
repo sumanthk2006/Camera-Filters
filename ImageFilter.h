@@ -10,6 +10,7 @@
 #import "GPUImage.h"
 #import "MGTileMenuController.h"
 #import "AwesomeMenu.h"
+#import "MapKit/MapKit.h"
 typedef enum {
     GPUIMAGE_SATURATION,
     GPUIMAGE_CONTRAST,

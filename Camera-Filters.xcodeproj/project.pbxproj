@@ -48,6 +48,7 @@
 		173FB63815AF071F00DCBFEE /* AwesomeMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 173FB63515AF066900DCBFEE /* AwesomeMenu.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		173FB63915AF071F00DCBFEE /* AwesomeMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 173FB63715AF066900DCBFEE /* AwesomeMenuItem.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		173FB63B15AF114F00DCBFEE /* CustomFilter.fsh in Sources */ = {isa = PBXBuildFile; fileRef = 173FB63A15AF114F00DCBFEE /* CustomFilter.fsh */; };
+		177946D815B040CE00FC4C6B /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 177946D715B040CE00FC4C6B /* MapKit.framework */; };
 		1787C83F15ADA7AC00C5967C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1787C83E15ADA7AC00C5967C /* UIKit.framework */; };
 		1787C84115ADA7AC00C5967C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1787C84015ADA7AC00C5967C /* Foundation.framework */; };
 		1787C84315ADA7AC00C5967C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1787C84215ADA7AC00C5967C /* CoreGraphics.framework */; };
@@ -140,6 +141,7 @@
 		173FB63615AF066900DCBFEE /* AwesomeMenuItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AwesomeMenuItem.h; sourceTree = "<group>"; };
 		173FB63715AF066900DCBFEE /* AwesomeMenuItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AwesomeMenuItem.m; sourceTree = "<group>"; };
 		173FB63A15AF114F00DCBFEE /* CustomFilter.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = CustomFilter.fsh; sourceTree = "<group>"; };
+		177946D715B040CE00FC4C6B /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		1787C83A15ADA7AC00C5967C /* Camera-Filters.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Camera-Filters.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1787C83E15ADA7AC00C5967C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		1787C84015ADA7AC00C5967C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -172,6 +174,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				177946D815B040CE00FC4C6B /* MapKit.framework in Frameworks */,
 				1787C88715ADAB4B00C5967C /* AVFoundation.framework in Frameworks */,
 				1787C88515ADAB1A00C5967C /* QuartzCore.framework in Frameworks */,
 				1787C88315ADAB1600C5967C /* OpenGLES.framework in Frameworks */,
@@ -277,6 +280,7 @@
 		1787C82F15ADA7AC00C5967C = {
 			isa = PBXGroup;
 			children = (
+				177946D715B040CE00FC4C6B /* MapKit.framework */,
 				1787C88615ADAB4B00C5967C /* AVFoundation.framework */,
 				1787C88415ADAB1A00C5967C /* QuartzCore.framework */,
 				1787C88215ADAB1600C5967C /* OpenGLES.framework */,
