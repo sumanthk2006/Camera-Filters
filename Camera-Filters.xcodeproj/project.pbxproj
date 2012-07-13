@@ -30,6 +30,7 @@
 		171EADD315AEF8000088297E /* speech@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 171EADCA15AEF8000088297E /* speech@2x.png */; };
 		171EADD415AEF8000088297E /* Text@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 171EADCB15AEF8000088297E /* Text@2x.png */; };
 		171EADD515AEF8000088297E /* twitter@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 171EADCC15AEF8000088297E /* twitter@2x.png */; };
+		1725FD6615B02558006856CF /* glCameraCaptureButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 1725FD6515B02558006856CF /* glCameraCaptureButton.png */; };
 		173FB62515AF065000DCBFEE /* bg-addbutton-highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = 173FB61715AF065000DCBFEE /* bg-addbutton-highlighted.png */; };
 		173FB62615AF065000DCBFEE /* bg-addbutton-highlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 173FB61815AF065000DCBFEE /* bg-addbutton-highlighted@2x.png */; };
 		173FB62715AF065000DCBFEE /* bg-addbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 173FB61915AF065000DCBFEE /* bg-addbutton.png */; };
@@ -56,8 +57,6 @@
 		1787C85215ADA7AC00C5967C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1787C85115ADA7AC00C5967C /* ViewController.m */; };
 		1787C85515ADA7AC00C5967C /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1787C85315ADA7AC00C5967C /* ViewController.xib */; };
 		1787C86A15ADA7DF00C5967C /* libGPUImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1787C86515ADA7D200C5967C /* libGPUImage.a */; };
-		1787C87815ADA92200C5967C /* glCameraCaptureButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1787C87715ADA92200C5967C /* glCameraCaptureButton@2x.png */; };
-		1787C87A15ADA92800C5967C /* glCameraCaptureButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 1787C87915ADA92800C5967C /* glCameraCaptureButton.png */; };
 		1787C87D15ADAAE000C5967C /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1787C87B15ADAAD600C5967C /* AssetsLibrary.framework */; };
 		1787C88015ADAB0C00C5967C /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1787C87E15ADAB0C00C5967C /* CoreMedia.framework */; };
 		1787C88115ADAB0C00C5967C /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1787C87F15ADAB0C00C5967C /* CoreVideo.framework */; };
@@ -121,6 +120,7 @@
 		171EADCA15AEF8000088297E /* speech@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "speech@2x.png"; sourceTree = "<group>"; };
 		171EADCB15AEF8000088297E /* Text@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Text@2x.png"; sourceTree = "<group>"; };
 		171EADCC15AEF8000088297E /* twitter@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "twitter@2x.png"; sourceTree = "<group>"; };
+		1725FD6515B02558006856CF /* glCameraCaptureButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = glCameraCaptureButton.png; sourceTree = "<group>"; };
 		173FB61715AF065000DCBFEE /* bg-addbutton-highlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg-addbutton-highlighted.png"; sourceTree = "<group>"; };
 		173FB61815AF065000DCBFEE /* bg-addbutton-highlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg-addbutton-highlighted@2x.png"; sourceTree = "<group>"; };
 		173FB61915AF065000DCBFEE /* bg-addbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg-addbutton.png"; sourceTree = "<group>"; };
@@ -154,8 +154,6 @@
 		1787C85115ADA7AC00C5967C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		1787C85415ADA7AC00C5967C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
 		1787C85B15ADA7D200C5967C /* GPUImage.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GPUImage.xcodeproj; path = framework/GPUImage.xcodeproj; sourceTree = "<group>"; };
-		1787C87715ADA92200C5967C /* glCameraCaptureButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "glCameraCaptureButton@2x.png"; path = "../../Instagram/glCameraCaptureButton@2x.png"; sourceTree = "<group>"; };
-		1787C87915ADA92800C5967C /* glCameraCaptureButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = glCameraCaptureButton.png; path = ../../Instagram/glCameraCaptureButton.png; sourceTree = "<group>"; };
 		1787C87B15ADAAD600C5967C /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
 		1787C87E15ADAB0C00C5967C /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		1787C87F15ADAB0C00C5967C /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
@@ -359,8 +357,7 @@
 			isa = PBXGroup;
 			children = (
 				171EADA215AEEE280088297E /* WID-small.jpg */,
-				1787C87915ADA92800C5967C /* glCameraCaptureButton.png */,
-				1787C87715ADA92200C5967C /* glCameraCaptureButton@2x.png */,
+				1725FD6515B02558006856CF /* glCameraCaptureButton.png */,
 			);
 			name = Resource;
 			sourceTree = "<group>";
@@ -441,8 +438,6 @@
 			files = (
 				1787C84915ADA7AC00C5967C /* InfoPlist.strings in Resources */,
 				1787C85515ADA7AC00C5967C /* ViewController.xib in Resources */,
-				1787C87815ADA92200C5967C /* glCameraCaptureButton@2x.png in Resources */,
-				1787C87A15ADA92800C5967C /* glCameraCaptureButton.png in Resources */,
 				1787C88C15ADB28200C5967C /* ImageFilter.xib in Resources */,
 				17C6C9AC15AE9963000F6DB2 /* ViewController_iPad.xib in Resources */,
 				17C6C9B615AEA6DB000F6DB2 /* ImageFilter_iPad.xib in Resources */,
@@ -481,6 +476,7 @@
 				173FB63015AF065000DCBFEE /* icon-plus@2x.png in Resources */,
 				173FB63115AF065000DCBFEE /* icon-star.png in Resources */,
 				173FB63215AF065000DCBFEE /* icon-star@2x.png in Resources */,
+				1725FD6615B02558006856CF /* glCameraCaptureButton.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
